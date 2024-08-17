@@ -14,7 +14,7 @@ func main() {
 
 	server.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Server is running on port 8080.",
+			"message": "server is running on port 8080.",
 		})
 	})
 
