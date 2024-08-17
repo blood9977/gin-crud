@@ -13,5 +13,5 @@ jobs:
     - name: Run sleep command
       run: |
         echo "Starting sleep command..."
-        sleep 7
+        sleep 15
         echo "Sleep command finished."
